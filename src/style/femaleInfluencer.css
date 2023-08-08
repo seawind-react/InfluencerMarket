@@ -1,0 +1,76 @@
+.swiper {
+    width: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.female-influencer {
+    background-image: url(../assests/Images/home-page-back.png);
+
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.swiper-slide img {
+    display: block;
+    height: 350px;
+    width: 600px;
+}
+
+.swiper-img {
+    height: 100px;
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+    width: 45% !important;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    display: block;
+}
+
+.swipper-slider {
+    margin-top: 50px;
+}
+
+.searchbar {
+    background-color: #f1f1f1;
+    width: 360px;
+    font-size: 22px;
+    border-color: #d00067;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .titleicon {
+        width: 50%;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .titleicon {
+        width: 60%;
+    }
+}
+
+@media (max-width:767px) {
+    .titleicon {
+        width: 50%;
+    }
+}
+
+@media (max-width:420px) {
+    .titleicon {
+        width: 50%;
+    }
+}

@@ -1,0 +1,74 @@
+.our-services-section {
+    position: relative;
+    background-image: url(../assests/Images/our-service-back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
+.our-services-box {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.our-icon {
+    margin-right: 20px;
+}
+
+.our-services-box .our-icon img {
+    width: 50px;
+}
+
+.our-text {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.our-text a {
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+.our-services-section:after {
+    background: url(../assests/Images/our-service-bottom.png);
+    content: "";
+    background-position: bottom;
+    bottom: -11px;
+    background-size: cover;
+    width: 100%;
+    height: 56px;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .titleicon {
+        width: 50%;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .titleicon {
+        width: 60%;
+    }
+}
+
+@media (max-width:767px) {
+    .titleicon {
+        width: 50%;
+    }
+}
+
+@media (max-width:420px) {
+    .titleicon {
+        width: 50%;
+    }
+}

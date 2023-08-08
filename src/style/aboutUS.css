@@ -1,0 +1,53 @@
+.about-section {
+    position: relative;
+    background: #fff url(../assests/Images/about-back-min.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    background-size: cover;
+}
+
+.about-content {
+    padding: 102px 0px 120px;
+    text-align: inherit;
+}
+
+.about-services-box {
+    padding: 15px 15px;
+    align-items: center;
+    display: flex;
+}
+
+.about-services-box .about-icon {
+    margin-right: 15px;
+}
+
+.about-services-box img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+@media (min-width:992px) and (max-width:1199px) {
+    .titleicon {
+        width: 50%;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .titleicon {
+        width: 60%;
+    }
+}
+
+@media (max-width:767px) {
+    .titleicon {
+        width: 50%;
+    }
+}
+
+@media (max-width:420px) {
+    .titleicon {
+        width: 50%;
+    }
+}

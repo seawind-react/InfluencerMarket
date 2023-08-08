@@ -1,0 +1,378 @@
+.page-title h2 {
+    font-family: "Edwardian Script ITC";
+    font-size: 85px;
+}
+
+.models-gallery-section {
+    background: #f7f7f6 url(../assests/Images/home-page-back.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.models-content-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.models-box {
+    position: relative;
+    width: 18.5%;
+    max-width: 100%;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+.models-box img {
+    border-radius: 10px;
+    display: flex;
+    height: 480px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.models-box h3 {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    background-color: rgb(223 18 109 / 76%);
+    padding: 5px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.block-model-name {
+    background: #fff;
+    padding: 10px 20px 0px;
+    text-align: left;
+}
+
+.block-model-name a {
+    color: #000;
+    text-decoration: none;
+}
+
+.models-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+.models-content-left {
+    background-color: #fff;
+    width: 86%;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.models-box .overlay {
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    width: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+    color: rgb(255, 255, 255) !important;
+    font-size: 20px;
+    padding: 0px;
+    text-align: center;
+}
+
+.models-box:hover .overlay {
+    opacity: 1;
+}
+
+.models-content-details h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #d00067;
+}
+
+.models-content-details p {
+    color: #333;
+}
+
+.models-content-details h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #d00067;
+}
+
+.custom-btn {
+    position: relative;
+}
+
+.custom-btn:before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: #e1e1e1;
+    right: 50%;
+    top: 50%;
+    z-index: -1;
+}
+
+.btn {
+    padding: 0.375rem 2rem;
+    border-radius: 0;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #df086d !important;
+    border-color: #df086d !important;
+}
+
+.custom-btn:after {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: #e1e1e1;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+}
+
+
+.btn {
+    padding: 0.375rem 2rem;
+    border-radius: 0;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #df086d !important;
+    border-color: #df086d !important;
+}
+
+/* ======================NEW===================== */
+
+
+.models-box {
+    position: relative;
+    width: 18.5%;
+    max-width: 100%;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+.models-box img {
+    border-radius: 10px;
+    display: flex;
+    height: 480px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.popularmodelIcon {
+    color: white;
+    display: flex;
+    margin: 15px 0 15px 0;
+    justify-content: center;
+
+}
+
+.models-box h3 {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    background-color: rgb(223 18 109 / 76%);
+    padding: 5px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.models-box .overlay {
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 0px;
+    text-align: center;
+}
+
+.block-model-name {
+    background: #fff;
+    padding: 10px 20px 0px;
+    text-align: left;
+}
+
+user agent stylesheet div {
+    display: block;
+}
+
+.models-box .overlay {
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 0px;
+    text-align: center;
+}
+
+.models-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+.models-content-left {
+    background-color: #fff;
+    width: 86%;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.align-self-stretch {
+    -ms-flex-item-align: stretch !important;
+    align-self: stretch !important;
+}
+
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.justify-content-around {
+    -ms-flex-pack: distribute !important;
+    justify-content: space-around !important;
+}
+
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.models-social-box {
+    width: 14%;
+}
+
+user agent stylesheet div {
+    display: block;
+}
+
+.models-gallery-section {
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+.pb-5,
+.py-5 {
+    padding-bottom: 3rem !important;
+}
+
+.pt-5,
+.py-5 {
+    padding-top: 3rem !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+
+.pl-2,
+.px-2 {
+    padding-left: 0.5rem !important;
+}
+
+.pr-2,
+.px-2 {
+    padding-right: 0.5rem !important;
+}
+
+.models-box {
+    position: relative;
+    width: 18.5%;
+    max-width: 100%;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+
+@media (min-width:992px) and (max-width:1199px) {
+    .models-content-main {
+        flex-direction: column;
+    }
+
+    .models-box {
+        width: 46.5% !important;
+    }
+
+    .titleicon {
+        width: 50%;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .models-box {
+        width: 46.5% !important;
+    }
+
+    .titleicon {
+        width: 60%;
+    }
+}
+
+@media (max-width:767px) {
+    .models-content-main {
+        flex-direction: column;
+    }
+
+    .models-box {
+        width: 76.5% !important;
+    }
+
+    .titleicon {
+        width: 50%;
+    }
+}
+
+@media (max-width:420px) {
+
+    .models-box {
+        width: 100% !important;
+    }
+
+    .titleicon {
+        width: 50%;
+    }
+}

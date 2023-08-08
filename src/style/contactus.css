@@ -1,0 +1,122 @@
+.inner-page-banner {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.inner-page-banner .page-section-internal__heading {
+    color: #e30f5f;
+    font-size: 0;
+    line-height: 5rem;
+    margin-bottom: 0px;
+}
+
+.contact-icon {
+    background-color: #e41779;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.bg-dark-light {
+    background-color: #363636;
+    color: #e8e8e8;
+}
+
+.pl-4,
+.px-4 {
+    padding-left: 1.5rem !important;
+}
+
+.pb-4,
+.py-4 {
+    padding-bottom: 1.5rem !important;
+}
+
+.pr-4,
+.px-4 {
+    padding-right: 1.5rem !important;
+}
+
+.bg-dark-light {
+    background-color: #363636;
+    color: #e8e8e8;
+}
+
+.bg-black {
+    background-color: #1a1a1a;
+    color: #e8e8e8;
+}
+
+.pt-4,
+.py-4 {
+    padding-top: 1.5rem !important;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.contact-page-form .form-control {
+    height: auto;
+    padding: 0.75rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #1e1e1e;
+    background-clip: padding-box;
+    border: 1px solid #505050;
+    border-radius: 33px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .titleicon {
+        width: 50%;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .titleicon {
+        width: 60%;
+    }
+}
+
+@media (max-width:767px) {
+    .titleicon {
+        width: 50%;
+    }
+}
+
+@media (max-width:420px) {
+    .titleicon {
+        width: 50%;
+    }
+}

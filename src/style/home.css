@@ -1,0 +1,60 @@
+.become-model-main {
+    background: #f7f7f6 url(../assests/become.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 250px 0;
+    background-size: cover;
+}
+
+.become-model-main:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #2b2b2b;
+    top: 0;
+    opacity: 0.8;
+}
+
+.become-model-main h2 {
+    text-transform: uppercase;
+    font-size: 55px;
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .titleicon {
+        width: 50%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .titleicon {
+        width: 60%;
+    }
+}
+
+@media (max-width:767px) {
+    .titleicon {
+        width: 50%;
+    }
+}
+
+@media (max-width:420px) {
+    .titleicon {
+        width: 50%;
+    }
+
+    .custom-section {
+        margin: 15px auto 15px auto;
+    }
+
+    .becomemodel h2 {
+        font-size: 20px !important;
+    }
+
+
+}

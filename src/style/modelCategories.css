@@ -1,0 +1,86 @@
+.model-categories-middle {
+    background-color: #ffe7e1;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    position: relative;
+    padding: 50px 0;
+}
+
+.model-categories-middle:before {
+    background: url(../assests/Images/model-cat-top.png);
+    content: "";
+    background-position: top;
+    top: -86px;
+    background-size: cover;
+    width: 100%;
+    height: 86px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+
+
+.model-categories-content h4 {
+    font-family: "poiret_oneregular";
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 0.375rem 2rem;
+    border-radius: 0;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #df086d !important;
+    border-color: #df086d !important;
+}
+
+@media (min-width:1200px) {
+    .model-categories-col:nth-child(2) {
+        margin-top: 250px;
+    }
+
+    .model-categories-col:nth-child(4) {
+        margin-top: 250px;
+    }
+}
+
+.model-categories-middle:after {
+    background: url(../assests/Images/model-cat-bottom.png);
+    content: "";
+    background-position: bottom;
+    bottom: -86px;
+    background-size: cover;
+    width: 100%;
+    height: 86px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .titleicon {
+        width: 50%;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .titleicon {
+        width: 60%;
+    }
+}
+
+@media (max-width:767px) {
+    .titleicon {
+        width: 50%;
+    }
+}
+
+@media (max-width:420px) {
+    .titleicon {
+        width: 50%;
+    }
+}

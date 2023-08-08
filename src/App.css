@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --heading-color: black;
+  --font-name: "Montserrat", sans-serif;
+  --subtitle-font-name: "Island Moments", cursive;
+}
+
+#app {
+  height: 100%
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  /* font-family: var(--font-name); */
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 17px !important;
+}
+
+section {
+  padding: 0px 0px;
+}
+
+
+
+a {
+  text-decoration: none !important;
+  color: unset;
+}
+
+ul {
+  list-style: none;
+}

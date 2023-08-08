@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+}
+
+.left-side img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.gallery {
+    display: flex;
+    align-items: center;
+    word-break: break-all;
+    padding-bottom: 50px;
+}
+
+.right-side .gallery img {
+    width: 60%;
+}
+
+.content-details p {
+    font-size: 30px;
+    font-weight: 500;
+    display: inline;
+    padding-right: 13rem;
+    font-family: 'Alkatra';
+}
+
+.content-details p span {
+    color: plum;
+    /* text-transform: uppercase; */
+}
+
+.content-details .sub-content {
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+
+.swiper-slide img {
+    display: block;
+    height: 450px;
+    width: 600px;
+    border: 2px solid #e53688;
+    border-radius: 10px;
+}
+
+.features-section {
+    background-image: url(../assests/Images/home-page-back.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.features-content-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.features-box {
+    position: relative;
+    width: 30%;
+    max-width: 100%;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+.features-box img {
+    border-radius: 10px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.features-box .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.features-box:hover .overlay {
+    opacity: 1;
+}
+
+.block-features-name {
+    background: black;
+    padding: 10px 20px 0px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.block-features-name {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.features-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    font-size: 50px;
+}
+
+.features-content-center {
+    background-color: #000;
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.features-content-details {
+    color: #fff;
+    text-align: center;
+}
+
+.features-box:hover .overlay {
+    opacity: 75%;
+}
+
+.block-features-name span {
+    text-decoration: none;
+    color: plum;
+    padding: 0 20px 0 20px;
+    font-family: "Alaktra";
+    font-size: 30px;
+}
+
+.features-content-center {
+    background-color: #000;
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.features-content-details p {
+    color: #f1f1f1;
+    font-size: 25px;
+    padding: 20px 40px 20px 40px;
+}
+
+.brand-heading {
+    padding: 120px;
+    font-size: 25px;
+    font-family: 'Alaktra';
+}
+
+.brand-heading h2 {
+    font-size: 50px;
+}
+
+.brand-heading h2 span {
+    color: plum;
+}
+
+.brand-heading p {
+    font-size: 25px;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.brand-heading a button {
+    margin-top: 4.25rem;
+    /* font-weight: 700; */
+    font-size: 18px;
+    line-height: 16px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    height: 50px;
+    width: 197px;
+    background: linear-gradient(272.1deg, rgb(230 39 243) 3.01%, rgb(255 68 244 / 91%) 99.27%);
+    box-shadow: rgba(214, 115, 236, 0.5) 0px 12px 20px -5px;
+}
+
+
+.brand-section .slick-list {
+    height: 500px !important;
+}
+
+.logobanner {
+    padding: 100px 0 100px 0;
+    margin: auto auto auto auto;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.slick-next {
+    right: 0px !important;
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .titleicon {
+        width: 50%;
+    }
+
+    .left-side img {
+        height: 80%;
+        width: 100%;
+    }
+
+    .right-side .content-details {
+        padding-top: 1rem !important;
+    }
+
+    .features-content-details p {
+        font-size: 15px;
+        padding: 4px 20px 7px 20px;
+    }
+
+    .block-features-name span {
+        padding: 0 20px 0 20px;
+        font-family: "Alaktra";
+        font-size: 25px;
+        text-align: center;
+        height: 100%;
+    }
+
+    .features-content-center {
+        padding: 0px 0;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .titleicon {
+        width: 60%;
+    }
+
+    .left-side img {
+        height: 70%;
+        width: 100%;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .brand-heading {
+        padding: 50px;
+    }
+
+    .gallery {
+        padding: 0rem;
+    }
+
+    .right-side .gallery img {
+        width: 90%;
+    }
+
+    .right-side .content-details {
+        padding-top: 1rem !important;
+    }
+
+    .content-details p {
+        font-size: 18px;
+        font-weight: 300;
+        display: inline;
+        padding-right: 13rem;
+        font-family: 'Alkatra';
+    }
+
+    .content-details .sub-content {
+        font-size: 15px;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+    }
+
+    .features-content-details p {
+        font-size: 10px;
+        padding: 0px;
+    }
+
+    .block-features-name span {
+        padding: 0px;
+        font-family: "Alaktra";
+        font-size: 24px;
+        text-align: center;
+        height: 100%;
+    }
+
+    .features-content-center {
+        padding: 0px 0;
+    }
+
+
+}
+
+@media (min-width:421px) and (max-width:767px) {
+    .titleicon {
+        width: 50%;
+    }
+
+    .left-side img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .brand-heading {
+        padding: 50px;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+    }
+
+    .gallery {
+        padding: 2rem;
+    }
+
+
+    .modeling-content-details {
+        flex-direction: column;
+    }
+
+    .features-box {
+        border-radius: 10px;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        object-fit: cover;
+    }
+
+
+}
+
+@media (max-width:420px) {
+    .titleicon {
+        width: 50%;
+    }
+
+    .left-side img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .right-side .gallery img {
+        width: 80px;
+        padding-right: 10px;
+    }
+
+    .gallery {
+        padding-top: 0.5rem;
+    }
+
+    .content-details p {
+        font-size: 15px;
+        font-weight: 500;
+        padding-right: 13rem;
+        font-family: 'Alkatra';
+    }
+
+    .content-details .sub-content {
+        font-size: 15px;
+        color: gray;
+        text-align: center;
+    }
+
+    .brand-heading {
+        padding: 50px;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+    }
+
+    .features-box {
+        border-radius: 10px;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        object-fit: cover;
+    }
+
+    .features-content-details p {
+        font-size: 18px;
+        padding: 0px;
+    }
+
+    .block-features-name span {
+        padding: 0px;
+        font-family: "Alaktra";
+        font-size: 20px;
+        text-align: center;
+        height: 100%;
+    }
+
+    .features-content-center {
+        padding: 0px 0;
+    }
+
+
+
+}
